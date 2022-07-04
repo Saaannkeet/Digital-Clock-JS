@@ -1,0 +1,281 @@
+.bgcolor {
+    background-color: #3D087B;
+}
+
+.clock {
+
+    margin-left: 200px;
+
+
+}
+
+.pop {
+    width: 400px;
+    height: 300px;
+
+    background-color: #FFFFFF;
+    margin-left: 200px;
+    border-radius: 15px;
+}
+
+.img1 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text1 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.select1 {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 230px;
+    height: 30px;
+    width: 150px;
+    border: 2px solid #EDEDED;
+}
+
+.select2 {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: -55px;
+    height: 30px;
+    width: 150px;
+    border: 2px solid #EDEDED;
+}
+
+.img2 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text2 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.img3 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text3 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.img4 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text4 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.vr {
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+
+/* .........div1...... */
+
+.good {
+    width: 400px;
+    height: 50px;
+    background-color: #8E53F0;
+    color: white;
+    margin-left: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ........div2............ */
+
+.set {
+    width: 180px;
+    height: 40px;
+    margin-left: 200px;
+    background-image: linear-gradient(113deg, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.set:hover {
+    font-size: 0;
+    background-image: linear-gradient(113deg, #6E54EC, #CB52F8, #FC5EFF);
+}
+
+.set:hover:after {
+    content: attr(hover);
+    font-size: 20px;
+    line-height: 24px;
+    font-size: 20px;
+    background-image: linear-gradient(113deg, #6E54EC, #CB52F8);
+
+
+    color: white;
+}
+
+
+
+
+
+/* ............................................... */
+
+/*                         page2               */
+
+.grab {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 45px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ......watch....  */
+.main {
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 50px
+}
+
+.main1 {
+    width: 370px;
+    height: 80px;
+    background-color: white;
+    color: #8A11BF;
+    font-weight: normal;
+    font-size: large;
+    padding: 10px;
+    display: flex;
+    border-radius: 9px;
+    z-index: 2;
+}
+
+.main2 {
+    width: 370px;
+    height: 110px;
+    position: absolute;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.5;
+
+}
+
+.main3 {
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.3;
+}
+
+.min1 {
+    background-color: #F6E2FF;
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.time {
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+    width: 70px;
+}
+
+.dot {
+    text-align: center;
+    margin: 3px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pm {
+    background-image: url(AM_svg.jpg);
+    color: white;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.timer-box2 {
+    background-color: white;
+
+
+}
+
+
+
+/* ............................ */
+
+.healthy {
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    color: #8E53F0;
+    background-color: white;
+    margin-top: -390px;
+    margin-left: 780px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.grab {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.girl {
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 90px;
+    background-image: url(Component.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.alarm {
+    width: 210px;
+    height: 150px;
+    border: none;
+    background-color: #8E53F0;
+    color: white;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -40px;
+    border-radius: 10px;
+    color: #F25CFE;
+}
