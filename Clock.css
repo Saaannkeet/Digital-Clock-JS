@@ -1,0 +1,262 @@
+
+  
+  .pop {
+    width: 100%;
+    min-height: 94vh;
+    margin: auto;
+    margin-top: 1%;
+    background-color: #3d087b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    width: 40%;
+    height: 80vh;
+    border-radius: 5px;
+  }
+  #left_side {
+    margin-right: 0.5%;
+  }
+  .clocktime {
+    width: 100%;
+    height: 17%;
+  }
+  #clock {
+    position: relative;
+    left: 15%;
+    top: 25%;
+    width: 25%;
+  }
+  .main {
+    width: 83%;
+    padding-right: 10px;
+    height: 55%;
+    background-color: white;
+    position: relative;
+    left: 15%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .timing {
+    width: 100%;
+    height: 13%;
+  }
+  .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #wake {
+    position: relative;
+    width: 70%;
+    left: 12px;
+  }
+  #first {
+    border-radius: 5px;
+    padding-top: 4px;
+    text-align: left;
+    padding-bottom: 4px;
+    padding-inline: 40px;
+    border: solid 1px lightgray;
+    color: #3d087bde;
+    cursor: pointer;
+  }
+  #second {
+    border-radius: 5px;
+    padding-top: 4px;
+    text-align: left;
+    padding-bottom: 4px;
+    padding-inline: 40px;
+    border: solid 1px lightgray;
+    color: #3d087bde;
+    cursor: pointer;
+  }
+  #third {
+    border-radius: 5px;
+    padding-top: 4px;
+    text-align: left;
+    padding-bottom: 4px;
+    padding-inline: 40px;
+    border: solid 1px lightgray;
+    color: #3d087bde;
+    cursor: pointer;
+  }
+  #fourth {
+    border-radius: 5px;
+    padding-top: 4px;
+    text-align: left;
+    padding-bottom: 4px;
+    padding-inline: 40px;
+    border: solid 1px lightgray;
+    color: #3d087bde;
+    cursor: pointer;
+  }
+  option {
+    padding-top: 20px;
+  }
+  .text {
+    font-size: 1.1rem;
+    width: 35%;
+    text-align: left;
+  }
+  .box2 {
+    border-left: 2px solid lightgray;
+    height: 10%;
+    width: 94%;
+    margin-left: 6%;
+  }
+  #good {
+    position: relative;
+    top: 10px;
+    height: 11%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #a276e9;
+    font-weight: bolder;
+  }
+  .last {
+    width: 83%;
+    padding-right: 10px;
+    height: 110px;
+    position: relative;
+    top: 20px;
+    left: 15%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set {
+    text-align: center;
+    font-size: 20px;
+    width: 48%;
+    height: 32px;
+    position: relative;
+    padding-top: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #6e54ec 0% 40%, #f147c5 90%);
+    color: white;
+    cursor: pointer;
+  }
+  .set_time:hover {
+    background-image: linear-gradient(
+      to left,
+      #6e54ec,
+      #cb52f8,
+      #fc5eff,
+      #f147c5
+    );
+  }
+  .nap {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    color: #f25cfe;
+    width: 45%;
+    border-radius: 5px;
+    background-color: #854be0;
+  
+    padding-inline: 10px;
+  }
+  p {
+    margin: 0;
+  }
+  #right {
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .right_side {
+    margin-top: 4%;
+    width: 80%;
+  }
+  .clocktime1 {
+    width: 340px;
+    left: 53%;
+    height: 110px;
+    border-radius: 10px;
+    background-color: gray;
+    position: absolute;
+    opacity: 0.4;
+  }
+  .clocktime2 {
+    width: 370px;
+    height: 100px;
+    z-index: 1;
+    left: 52%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.6;
+  }
+  .clocktime3 {
+    width: 400px;
+    height: 90px;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #clock1 {
+    padding-inline: 10px;
+    padding-top: 10px;
+    width: 15%;
+    height: 50%;
+    font-size: 1.3rem;
+
+    
+
+  }
+  #clock2 {
+    border-radius: 5px;
+    width: 17%;
+    height: 50%;
+    padding-top: 10px;
+ 
+    background-image: url("AM_svg.jpg");
+
+    opacity: 0.5;
+  }
+  #clock3 {
+    border-radius: 5px;
+    width: 15%;
+    height: 45%;
+    margin-inline: 10px;
+    padding-top: 15px;
+    background-image: url("AM_svg.jpg");
+  }
+  #grab {
+    position: relative;
+    background-color: white;
+    width: 80%;
+    top: 1%;
+    height: 15%;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8e53f0;
+  }
+  #girl {
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    background-image: url(lunch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+  }
